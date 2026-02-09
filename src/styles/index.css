@@ -1,0 +1,31 @@
+@import "react-toastify/dist/ReactToastify.css";
+@import 'react-modal-video/css/modal-video.css';
+@import "swiper/css/bundle";
+
+@import "/assets/css/animate.min.css";
+@import "/assets/css/bootstrap.min.css";
+@import "/assets/css/default.css";
+@import "/assets/css/flatpicker.css";
+@import "/assets/css/fontawesome-all.min.css";
+
+.hamsafar-logo {
+  font-family: "Chillax", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(120deg, #0b1f3b 0%, #102a4d 35%, #163764 70%, #d4af37 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hamsafar-logo span {
+  background: linear-gradient(135deg, #f5e6b8 0%, #d4af37 40%, #b8860b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
