@@ -29,3 +29,61 @@
   background-clip: text;
   color: transparent;
 }
+
+/* Logo transparency styles */
+.logo-img-transparent {
+  background-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  max-width: 200px;
+  height: auto;
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+/* Force override any theme styles for logo images */
+.tg-hero-content-area img,
+.tg-hero-area img,
+.shop-slider-wrapper img,
+.swiper-slide img,
+.text-end img,
+.mb-20 img {
+  background-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Specific override for logo-img */
+img[src="/assets/img/afghanistan/logo-img.png"] {
+  background-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+  width: 200px;
+  height: auto;
+}

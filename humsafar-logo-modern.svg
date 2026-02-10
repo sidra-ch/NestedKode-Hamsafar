@@ -1,0 +1,36 @@
+<svg width="240" height="80" viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern Minimalist Travel Logo -->
+  <defs>
+    <linearGradient id="modernBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon: Airplane + Mountain -->
+  <g transform="translate(10, 10)">
+    <!-- Mountain silhouette -->
+    <path d="M 0 50 L 15 25 L 25 35 L 40 10 L 60 50 Z" fill="url(#modernBlue)" opacity="0.9"/>
+    
+    <!-- Airplane -->
+    <g transform="translate(30, 20) rotate(-15)">
+      <path d="M -12 0 L -7 -1.5 L 0 -4 L 7 -1.5 L 12 0 L 7 1 L 0 4 L -7 1 Z" fill="url(#accentGold)"/>
+      <path d="M 0 -4 L 0 -7 L 1.5 -8.5 L 1.5 -4 Z" fill="url(#accentGold)"/>
+      <path d="M 0 4 L 0 7 L -1.5 8.5 L -1.5 4 Z" fill="url(#accentGold)"/>
+    </g>
+    
+    <!-- Subtle circle background -->
+    <circle cx="30" cy="30" r="28" fill="none" stroke="url(#modernBlue)" stroke-width="1" opacity="0.3"/>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="75" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1E40AF">HUM</text>
+  <text x="115" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="300" fill="#3B82F6">SAFAR</text>
+  
+  <!-- Tagline -->
+  <text x="75" y="52" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#64748B" letter-spacing="1">DISCOVER AFGHANISTAN</text>
+</svg>

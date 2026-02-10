@@ -9,6 +9,7 @@ import UseSticky from "../../hooks/UseSticky";
 import PhoneIcon from "../../svg/PhoneIcon";
 import CartIcon from "../../svg/CartIcon";
 import UserIcon from "../../svg/UserIcon";
+import HumsafarLogoImage from "../../components/common/HumsafarLogoImage";
 
 const HeaderThree = () => {
 
@@ -26,7 +27,7 @@ const HeaderThree = () => {
                         <div className="tgmenu__wrap d-flex align-items-center">
                            <div className="logo">
                               <Link className="logo-1 hamsafar-logo" to="/">
-                                 HAM<span>SAFAR</span>
+                                 <HumsafarLogoImage />
                               </Link>
                            </div>
                            <nav className="tgmenu__nav tgmenu-1-space ml-180">

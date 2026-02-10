@@ -12,7 +12,7 @@ interface DataType {
 const blog_data: DataType[] = [
    {
       id: 1,
-      thumb: "/assets/img/blog/blog-2.jpg",
+      thumb: "/assets/img/blog/image-24.jpg",
       tag: "Hiking",
       title: "Wine Country Escapes: Vineyard Tours for Connoisseurs",
       date: "26th Sep, 2024",
@@ -20,7 +20,7 @@ const blog_data: DataType[] = [
    },
    {
       id: 2,
-      thumb: "/assets/img/blog/blog-3.jpg",
+      thumb: "/assets/img/blog/image-27.jpg",
       tag: "Adventure",
       title: "Thrills & Chills: Extreme Sports Tours for Adrenaline",
       date: "26th Sep, 2024",
@@ -47,7 +47,7 @@ const Blog = () => {
                <div className="col-lg-5 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration=".9s">
                   <div className="tg-blog-item mb-25">
                      <div className="tg-blog-thumb fix">
-                        <Link to="/blog-details"><img className="w-100" src="/assets/img/blog/blog-1.jpg" alt="blog" /></Link>
+                        <Link to="/blog-details"><img className="w-100" src="/assets/img/blog/banner-5.jpg" alt="blog" /></Link>
                      </div>
                      <div className="tg-blog-content  p-relative">
                         <span className="tg-blog-tag p-absolute">Travel River</span>

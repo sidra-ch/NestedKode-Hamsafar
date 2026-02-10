@@ -46,15 +46,15 @@ const Banner = () => {
          <div className="tg-hero-content-area">
             <div className="container">
                <div className="p-relative">
-                  <div className="row justify-content-center">
-                     <div className="col-xl-10">
-                        <div className="tg-hero-content text-center">
+                  <div className="row justify-content-between align-items-center">
+                     <div className="col-xl-6">
+                        <div className="tg-hero-content">
                            <div className="tg-hero-title-box mb-10">
                               <h5 className="tg-hero-subtitle mb-5 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".7s">* This offer valid till 22 August</h5>
                               <h2 className="tg-hero-title wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".9s">Afghanistan Journeys</h2>
-                              <p className="tg-hero-para mb-0  wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1.1s">when an unknown printer took ar galley offer type area <br /> year anddey make specimen book</p>
+                              <p className="tg-hero-para mb-0  wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1.1s">when an unknown printer took ar galley offer type area <br />year anddey make specimen book</p>
                            </div>
-                           <div className="tg-hero-price-wrap mb-35 d-flex align-items-center justify-content-center  wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1.3s">
+                           <div className="tg-hero-price-wrap mb-35 d-flex align-items-center justify-content-start  wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1.3s">
                               <p className="mr-15">Booking Start From</p>
                               <div className="tg-hero-price d-flex">
                                  <span className="hero-dolar">$</span>
@@ -69,21 +69,60 @@ const Banner = () => {
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div className="tg-hero-arrow-box d-none d-sm-block">
-                     <button className="tg-hero-next">
-                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M18.0274 7.5H0.972625M0.972625 7.5L7.25 1.22263M0.972625 7.5L7.25 13.7774" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                     </button>
-                     <button className="tg-hero-prev">
-                        <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M1.47263 7.5H18.5274M18.5274 7.5L12.25 1.22263M18.5274 7.5L12.25 13.7774" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                     </button>
+                     <div className="col-xl-6">
+                        <div className="text-end">
+                           <div className="mb-20">
+                              {/* Test with different approaches */}
+                              <div style={{background: 'red', padding: '10px', marginBottom: '10px'}}>
+                                <img 
+                                  src="/assets/img/afghanistan/logo-img.png" 
+                                  alt=""
+                                  style={{
+                                    width: '200px',
+                                    height: 'auto',
+                                    border: 'none',
+                                    background: 'transparent'
+                                  }}
+                                />
+                              </div>
+                              <div style={{background: 'blue', padding: '10px'}}>
+                                <img 
+                                  src="/assets/img/afghanistan/about-1.jpg" 
+                                  alt=""
+                                  style={{
+                                    width: '200px',
+                                    height: 'auto'
+                                  }}
+                                />
+                              </div>
+                              <div style={{background: 'green', padding: '10px'}}>
+                                <img 
+                                  src="/assets/img/afghanistan/logo-img.png" 
+                                  alt=""
+                                  style={{
+                                    width: '200px',
+                                    height: 'auto'
+                                  }}
+                                />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
+         </div>
+         <div className="tg-hero-arrow-box d-none d-sm-block">
+            <button className="tg-hero-next">
+               <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.0274 7.5H0.972625M0.972625 7.5L7.25 1.22263M0.972625 7.5L7.25 13.7774" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+               </svg>
+            </button>
+            <button className="tg-hero-prev">
+               <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.47263 7.5H18.5274M18.5274 7.5L12.25 1.22263M18.5274 7.5L12.25 13.7774" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+               </svg>
+            </button>
          </div>
          <div className="tg-hero-bottom-shape d-none d-md-block">
             <span>

@@ -1,0 +1,30 @@
+.logo-img-transparent {
+  background-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  max-width: 200px;
+  height: auto;
+  display: inline-block;
+}
+
+/* Force override any theme styles */
+.tg-hero-content-area img,
+.tg-hero-area img,
+.shop-slider-wrapper img,
+.swiper-slide img {
+  background-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}

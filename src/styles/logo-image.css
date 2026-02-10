@@ -1,0 +1,19 @@
+.humsafar-logo-img {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logo-1.hamsafar-logo {
+  background-color: transparent !important;
+}
+
+.tg-header__area .logo {
+  background-color: transparent !important;
+}
+
+/* Ensure no white background around logo */
+.logo {
+  background: transparent !important;
+}
