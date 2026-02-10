@@ -15,7 +15,6 @@ const About = () => {
                <div className="col-lg-6 mb-30">
                   <div className="tg-about-content text-center">
                       <div className="tg-about-logo mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
-                         <img src="/assets/img/logo/logo-green.png" alt="logo" />
                       </div>
                      <div className="tg-about-section-title mb-25">
                         <h5 className="tg-section-subtitle wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".6s">Most Popular Tour</h5>

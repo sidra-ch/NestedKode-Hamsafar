@@ -4,11 +4,9 @@ import { Link } from "react-router-dom";
 import Button from '../../common/Button';
 
 const banner_thumb: string[] = [
-   "/assets/img/afghanistan/image-14.avif",
-   "/assets/img/afghanistan/image-15.avif",
-   "/assets/img/afghanistan/image-16.avif",
-   "/assets/img/afghanistan/image-17.avif",
-   "/assets/img/afghanistan/image-18.avif",
+   "/assets/img/banner/banner-3.jpg",
+   "/assets/img/banner/banner-4.jpg", 
+   "/assets/img/banner/banner-5.jpg",
 ]
 
 const setting = {
@@ -71,41 +69,7 @@ const Banner = () => {
                      </div>
                      <div className="col-xl-6">
                         <div className="text-end">
-                           <div className="mb-20">
-                              {/* Test with different approaches */}
-                              <div style={{background: 'red', padding: '10px', marginBottom: '10px'}}>
-                                <img 
-                                  src="/assets/img/afghanistan/logo-img.png" 
-                                  alt=""
-                                  style={{
-                                    width: '200px',
-                                    height: 'auto',
-                                    border: 'none',
-                                    background: 'transparent'
-                                  }}
-                                />
-                              </div>
-                              <div style={{background: 'blue', padding: '10px'}}>
-                                <img 
-                                  src="/assets/img/afghanistan/about-1.jpg" 
-                                  alt=""
-                                  style={{
-                                    width: '200px',
-                                    height: 'auto'
-                                  }}
-                                />
-                              </div>
-                              <div style={{background: 'green', padding: '10px'}}>
-                                <img 
-                                  src="/assets/img/afghanistan/logo-img.png" 
-                                  alt=""
-                                  style={{
-                                    width: '200px',
-                                    height: 'auto'
-                                  }}
-                                />
-                              </div>
-                           </div>
+
                         </div>
                      </div>
                   </div>
