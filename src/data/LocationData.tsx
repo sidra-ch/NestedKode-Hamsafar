@@ -8,41 +8,41 @@ interface DataType {
 }
 
 const location_data: DataType[] = [
-   {
-      id: 1,
-      page: "home_1",
-      thumb: "/assets/img/destination/tu/des-1.jpg",
-      title: "Paris",
-      total: "05 ",
-   },
-   {
-      id: 2,
-      page: "home_1",
-      thumb: "/assets/img/destination/tu/des-2.jpg",
-      title: "Australia",
-      total: "08",
-   },
-   {
-      id: 3,
-      page: "home_1",
-      thumb: "/assets/img/destination/tu/des-3.jpg",
-      title: "New York",
-      total: "06",
-   },
-   {
-      id: 4,
-      page: "home_1",
-      thumb: "/assets/img/destination/tu/des-4.jpg",
-      title: "Spain City",
-      total: "07",
-   },
-   {
-      id: 5,
-      page: "home_1",
-      thumb: "/assets/img/destination/tu/des-2.jpg",
-      title: "Australia",
-      total: "08",
-   },
+    {
+       id: 1,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/kabul-location.jpg",
+       title: "Kabul",
+       total: "12 ",
+    },
+    {
+       id: 2,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/herat-hero.jpg",
+       title: "Herat",
+       total: "08",
+    },
+    {
+       id: 3,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/bamyan-location.jpg",
+       title: "Bamyan",
+       total: "06",
+    },
+    {
+       id: 4,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/mazar-location.jpg",
+       title: "Mazar-i-Sharif",
+       total: "07",
+    },
+    {
+       id: 5,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/kandahar-tour.jpg",
+       title: "Kandahar",
+       total: "10",
+    },
 
    // home_2
 
@@ -91,34 +91,34 @@ const location_data: DataType[] = [
 
    // home_3
 
-   {
-      id: 1,
-      page: "home_3",
-      thumb: "/assets/img/afghanistan/image-2.avif",
-      title: "Kabul",
-      total: "05",
-   },
-   {
-      id: 2,
-      page: "home_3",
-      thumb: "/assets/img/afghanistan/image-3.avif",
-      title: "Herat",
-      total: "08",
-   },
-   {
-      id: 3,
-      page: "home_3",
-      thumb: "/assets/img/afghanistan/image-4.avif",
-      title: "Mazar-i-Sharif",
-      total: "06",
-   },
-   {
-      id: 4,
-      page: "home_3",
-      thumb: "/assets/img/afghanistan/image-5.avif",
-      title: "Bamyan",
-      total: "07",
-   },
+    {
+       id: 1,
+       page: "home_3",
+       thumb: "/assets/img/afghanistan/banner-8.jpg",
+       title: "Kabul",
+       total: "05",
+    },
+    {
+       id: 2,
+       page: "home_3",
+       thumb: "/assets/img/afghanistan/banner.jpg",
+       title: "Herat",
+       total: "08",
+    },
+    {
+       id: 3,
+       page: "home_3",
+       thumb: "/assets/img/afghanistan/mazar-hero.jpg",
+       title: "Mazar-i-Sharif",
+       total: "06",
+    },
+    {
+       id: 4,
+       page: "home_3",
+       thumb: "/assets/img/afghanistan/grid-1.jpg",
+       title: "Kandahar",
+       total: "07",
+    },
 
    // home_5
 

@@ -7,16 +7,16 @@ const About = () => {
          <div className="container">
             <div className="row">
                <div className="col-lg-3">
-                  <div className="tg-about-thumb-wrap mb-30">
-                     <img className="w-100 tg-round-15 mb-85 wow fadeInLeft" data-wow-delay=".3s" data-wow-duration=".7s" src="/assets/img/about/about.jpg" alt="about" />
-                     <img className="tg-about-thumb-2 tg-round-15 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration=".9s" src="/assets/img/about/about-2.jpg" alt="about" />
-                  </div>
+                   <div className="tg-about-thumb-wrap mb-30">
+                      <img className="w-100 tg-round-15 mb-85 wow fadeInLeft" data-wow-delay=".3s" data-wow-duration=".7s" src="/assets/img/afghanistan/banner-2.jpg" alt="Afghanistan Nature" style={{ height: "320px", objectFit: "cover" }} />
+                      <img className="tg-about-thumb-2 tg-round-15 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration=".9s" src="/assets/img/afghanistan/banner-5.jpg" alt="Afghan Valley" style={{ height: "200px", objectFit: "cover" }} />
+                   </div>
                </div>
                <div className="col-lg-6 mb-30">
                   <div className="tg-about-content text-center">
-                     <div className="tg-about-logo mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
-                        <img src="/assets/img/about/logo.png" alt="logo" />
-                     </div>
+                      <div className="tg-about-logo mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
+                         <img src="/assets/img/logo/logo-green.png" alt="logo" />
+                      </div>
                      <div className="tg-about-section-title mb-25">
                         <h5 className="tg-section-subtitle wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".6s">Most Popular Tour</h5>
                         <h2 className="mb-15 wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">Let’s Discover The World With Our Excellent Eyes</h2>
@@ -32,10 +32,10 @@ const About = () => {
                   </div>
                </div>
                <div className="col-lg-3">
-                  <div className="tg-about-thumb-wrap  mb-30">
-                     <img className="w-100 tg-round-15 mb-85 wow fadeInRight" data-wow-delay=".3s" data-wow-duration=".7s" src="/assets/img/about/about-3.jpg" alt="about" />
-                     <img className="tg-about-thumb-4 tg-round-15 wow fadeInRight" data-wow-delay=".4s" data-wow-duration=".9s" src="/assets/img/about/about-4.jpg" alt="about" />
-                  </div>
+                   <div className="tg-about-thumb-wrap  mb-30">
+                      <img className="w-100 tg-round-15 mb-85 wow fadeInRight" data-wow-delay=".3s" data-wow-duration=".7s" src="/assets/img/afghanistan/banner-7.jpg" alt="Afghan Landscape" style={{ height: "320px", objectFit: "cover" }} />
+                      <img className="tg-about-thumb-4 tg-round-15 wow fadeInRight" data-wow-delay=".4s" data-wow-duration=".9s" src="/assets/img/afghanistan/banner-6.jpg" alt="Natural Beauty" style={{ height: "200px", objectFit: "cover" }} />
+                   </div>
                </div>
             </div>
          </div>

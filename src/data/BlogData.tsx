@@ -10,36 +10,36 @@ interface DataType {
 }
 
 const blog_data: DataType[] = [
-   {
-      id: 1,
-      page: "home_1",
-      thumb: "/assets/img/blog/blog-2/blog-1.jpg",
-      tag: "Hiking",
-      title: "Spiritual Sojourn mageey for Soul Seekers",
-      date: "26th Sep, 2024",
-      time: "5 mins Read",
-      desc: "Are you tired the typical tourist destinat ons and looking step out of your comf ort zone travel."
-   },
-   {
-      id: 2,
-      page: "home_1",
-      thumb: "/assets/img/blog/blog-2/blog-2.jpg",
-      tag: "River",
-      title: "Wine Country Escapeeyard Tours for Connoisseurs",
-      date: "26th Sep, 2024",
-      time: "5 mins Read",
-      desc: "Are you tired the typical tourist destinat ons and looking step out of your comf ort zone travel."
-   },
-   {
-      id: 3,
-      page: "home_1",
-      thumb: "/assets/img/blog/blog-2/blog-3.jpg",
-      tag: "Travel",
-      title: "Thrills & Chills treme Sports Tours for Adrenaline",
-      date: "26th Sep, 2024",
-      time: "5 mins Read",
-      desc: "Are you tired the typical tourist destinat ons and looking step out of your comf ort zone travel."
-   },
+    {
+       id: 1,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/blog-1.jpg",
+       tag: "Culture",
+       title: "Discover Ancient Heritage of Afghanistan",
+       date: "26th Sep, 2024",
+       time: "5 mins Read",
+       desc: "Explore the rich cultural heritage and historical sites across Afghanistan's ancient cities."
+    },
+    {
+       id: 2,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/blog-2.jpg",
+       tag: "Adventure",
+       title: "Band-e Amir: Afghanistan's Natural Wonder",
+       date: "26th Sep, 2024",
+       time: "5 mins Read",
+       desc: "Experience the breathtaking beauty of Afghanistan's famous blue lakes and mountain landscapes."
+    },
+    {
+       id: 3,
+       page: "home_1",
+       thumb: "/assets/img/afghanistan/blog-3.jpg",
+       tag: "Travel",
+       title: "Silk Road Journey Through Modern Afghanistan",
+       date: "26th Sep, 2024",
+       time: "5 mins Read",
+       desc: "Follow the ancient trade routes and discover Afghanistan's role in connecting civilizations."
+    },
 
    // inner_1
 

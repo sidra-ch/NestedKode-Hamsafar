@@ -36,13 +36,13 @@ const About = () => {
             <div className="row align-items-end">
                <div className="col-lg-5">
                   <div className="tg-about-su-thumb p-relative mb-40 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration=".6s">
-                     <div className="tg-about-su-shape-2">
-                        <img src="/assets/img/about/su/shape.png" alt="" />
-                     </div>
-                     <div className="tg-about-su-shape">
-                        <img src="/assets/img/about/su/shape-2.png" alt="" />
-                     </div>
-                     <img src="/assets/img/about/su/thumb.png" alt="" />
+                      <div className="tg-about-su-shape-2">
+                         <img src="/assets/img/about/su/shape.png" alt="" />
+                      </div>
+                      <div className="tg-about-su-shape">
+                         <img src="/assets/img/about/su/shape-2.png" alt="" />
+                      </div>
+                      <img src="/assets/img/afghanistan/about-1.jpg" alt="" />
                   </div>
                </div>
                <div className="col-lg-7">
@@ -72,9 +72,9 @@ const About = () => {
                            <Link className="tg-btn tg-btn-hover" to="/about">More About Us</Link>
                         </div>
                         <div className="tg-about-su-author d-flex align-items-center mb-10">
-                           <div className="tg-about-su-author-avatar mr-10">
-                              <img src="/assets/img/about/su/author.jpg" alt="" />
-                           </div>
+                            <div className="tg-about-su-author-avatar mr-10">
+                               <img src="/assets/img/afghanistan/thumb-1.jpg" alt="" />
+                            </div>
                            <div className="tg-about-su-author-info">
                               <h5>Richard Kemel</h5>
                               <span>Ceo & Founder</span>

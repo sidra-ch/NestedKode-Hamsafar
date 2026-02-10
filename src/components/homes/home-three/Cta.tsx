@@ -13,17 +13,18 @@ const Cta = () => {
             <div className="container">
                <div className="row gx-0">
                   <div className="col-lg-7">
-                     <div className="tg-banner-video-wrap include-bg" style={{ backgroundImage: `url(/assets/img/banner/thumb.jpg)` }}>
-                        <div className="tg-banner-video-inner text-center">
-                           <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="tg-video-play popup-video tg-pulse-border">
-                              <span className="p-relative z-index-11">
-                                 <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M17.3616 8.34455C19.0412 9.31425 19.0412 11.7385 17.3616 12.7082L4.13504 20.3445C2.45548 21.3142 0.356021 20.1021 0.356021 18.1627L0.356022 2.89C0.356022 0.950609 2.45548 -0.261512 4.13504 0.708185L17.3616 8.34455Z" fill="currentColor" />
-                                 </svg>
-                              </span>
-                           </a>
-                        </div>
-                     </div>
+                      <div className="tg-banner-video-wrap">
+                         <video 
+                            className="w-100" 
+                            muted 
+                            controls 
+                            playsInline
+                            style={{ borderRadius: "12px", height: "400px", objectFit: "cover" }}
+                         >
+                            <source src="/assets/img/afghanistan/Download.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                         </video>
+                      </div>
                   </div>
                   <div className="col-lg-5">
                      <div className="tg-banner-content p-relative z-index-1 text-center">

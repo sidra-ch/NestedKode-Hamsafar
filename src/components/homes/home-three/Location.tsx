@@ -22,10 +22,9 @@ const Location = () => {
                            <div className="tg-location-thumb">
                               <img className="w-100" src={item.thumb} alt="location" />
                            </div>
-                           <div className="tg-location-content text-center">
-                              <span className="tg-location-time">{item.total} Tours</span>
-                              <h3 className="tg-location-title mb-0"><Link to="/map-listing">{item.title}</Link></h3>
-                           </div>
+                            <div className="tg-location-content text-center">
+                               <h3 className="tg-location-title mb-0"><Link to="/map-listing">{item.title}</Link></h3>
+                            </div>
                            <div className="tg-location-border one"></div>
                            <div className="tg-location-border two"></div>
                         </div>
