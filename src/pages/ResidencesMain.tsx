@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import HeaderOne from '../layouts/headers/HeaderOne';
-import Breadcrumb from '../components/common/Breadcrumb';
+import BreadCrumb from '../components/common/BreadCrumb';
 import FooterOne from '../layouts/footers/FooterOne';
 import services_data from '../data/ServicesData';
 
@@ -178,9 +178,9 @@ const ResidencesMain: React.FC = () => {
          </Helmet>
          <HeaderOne />
          <main>
-            <Breadcrumb 
+            <BreadCrumb 
                title="Home & Residence" 
-               subtitle="Guesthouses and Apartments in Afghanistan"
+               sub_title="Residences"
             />
             <section className="residence-area pt-120 pb-90" style={{
                background: 'linear-gradient(to bottom, #f8f9fa, #ffffff)'

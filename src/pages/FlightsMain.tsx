@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import HeaderOne from '../layouts/headers/HeaderOne';
-import Breadcrumb from '../components/common/Breadcrumb';
+import BreadCrumb from '../components/common/BreadCrumb';
 import FooterOne from '../layouts/footers/FooterOne';
 import services_data from '../data/ServicesData';
 
@@ -189,9 +189,9 @@ const FlightsMain: React.FC = () => {
          </Helmet>
          <HeaderOne />
          <main>
-            <Breadcrumb 
+            <BreadCrumb 
                title="Domestic Flights" 
-               subtitle="Book Your Flight Across Afghanistan"
+               sub_title="Flights"
             />
             <section className="flight-area pt-120 pb-90" style={{
                background: 'linear-gradient(to bottom, #f8f9fa, #ffffff)'
