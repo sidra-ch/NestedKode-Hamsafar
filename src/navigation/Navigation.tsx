@@ -29,6 +29,10 @@ import BlogTwoMain from '../pages/BlogTwoMain';
 import BlogDetailsMain from '../pages/BlogDetailsMain';
 import ContactMain from '../pages/ContactMain';
 import ErrorMain from '../pages/ErrorMain';
+import FlightsMain from '../pages/FlightsMain';
+import BusServicesMain from '../pages/BusServicesMain';
+import ResidencesMain from '../pages/ResidencesMain';
+import InsuranceMain from '../pages/InsuranceMain';
 
 const AppNavigation = () => {
   return (
@@ -46,6 +50,10 @@ const AppNavigation = () => {
         <Route path="/tour-grid-1" element={<HotelGridTwoMain />} />
         <Route path="/tour-grid-2" element={<TourGridOneMain />} />
         <Route path="/map-listing" element={<HotelListingMain />} />
+        <Route path="/flights" element={<FlightsMain />} />
+        <Route path="/bus-services" element={<BusServicesMain />} />
+        <Route path="/residences" element={<ResidencesMain />} />
+        <Route path="/insurance" element={<InsuranceMain />} />
         <Route path="/tour-details" element={<TourDetailsOneMain />} />
         <Route path="/tour-details-2" element={<TourDetailsTwoMain />} />
         <Route path="/about" element={<AboutMain />} />
