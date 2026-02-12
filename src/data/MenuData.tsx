@@ -43,14 +43,26 @@ const menu_data: MenuItem[] = [
     },
     {
         id: 6,
-        title: "Rental",
-        link: "/map-listing",
+        title: "Flight",
+        link: "/flights",
         has_dropdown: false,
     },
     {
         id: 7,
-        title: "Tickets",
-        link: "/checkout",
+        title: "Bus",
+        link: "/bus-services",
+        has_dropdown: false,
+    },
+    {
+        id: 8,
+        title: "Home & Residence",
+        link: "/residences",
+        has_dropdown: false,
+    },
+    {
+        id: 9,
+        title: "Insurance",
+        link: "/insurance",
         has_dropdown: false,
     },
 ];
